@@ -1,9 +1,9 @@
 # Generated automatically from Makefile.in by configure.
 VERSION=4.9
-CC?=gcc
+CC?=/home/eko/Schreibtisch/Main/bftpd/../toolchain/bin/mips-linux-gnu-gcc
 INSTALL=/usr/bin/install -c
 prefix=/usr
-CFLAGS=-g -O2 -DHAVE_CONFIG_H -Wall -I. -DVERSION=\"$(VERSION)\" -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPREFIX=\"$(prefix)\" 
+CFLAGS= -DHAVE_CONFIG_H -Wall -I. -DVERSION=\"$(VERSION)\" -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPREFIX=\"$(prefix)\" -DDEBUG=1
 LIBS= -lcrypt
 mandir=${prefix}/man
 sbindir=${exec_prefix}/sbin
