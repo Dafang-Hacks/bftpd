@@ -16,7 +16,6 @@ OBJS=bftpdutmp.o commands.o commands_admin.o cwd.o dirlist.o list.o login.o logg
 SRCS=bftpdutmp.c commands.c commands_admin.c cwd.c dirlist.c list.c login.c logging.c main.c mystring.c options.c md5.c
 
 OBJS2LINK=$(OBJS) $(PAX)
-LDFLAGS=
 
 all: bftpd
 
